@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2? família=Justo&exibição=troca');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #492421;;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 15px;
+}
